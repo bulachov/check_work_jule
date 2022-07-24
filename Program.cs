@@ -10,7 +10,7 @@ string[] MainTask(string[] tosort, int Simbol)
     string[] result = new string[0];
     for (int i = 0; i < tosort.Length; i++)
     {
-        if ((tosort[i].Length <= Simbol) && (tosort[i].Length >= 1))
+        if (tosort[i].Length <= Simbol)
         {
             Array.Resize(ref result, result.Length + 1);
             result[result.Length - 1] = tosort[i];
