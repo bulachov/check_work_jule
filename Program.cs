@@ -37,3 +37,5 @@ File.WriteAllText("indata.txt", Print(a));
 
 string[] b = MainTask(a, howManySimbol);
 File.WriteAllText("outdata.txt", Print(b));
+
+Console.WriteLine("all compleate, result in file");
